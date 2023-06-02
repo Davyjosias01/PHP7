@@ -35,4 +35,7 @@ $meuEndereco = new Endereco("Rua São Bento", 87, "Luzerna");
 echo $meuEndereco;
 
 
+echo $meuEndereco;
+
+
 ?>
