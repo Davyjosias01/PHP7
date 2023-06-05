@@ -43,6 +43,7 @@ class CPF extends Documento {
 	}
 }
 
+
 $doc = new CPF;
 
 $doc -> setNumero('000000000-04');
