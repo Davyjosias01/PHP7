@@ -3,15 +3,9 @@
 namespace Cliente;
 
 class Cadastro extends \Cadastro {
-
-	public function compra(){
-
-		echo "O cliente ". $this->getNome . " comprou";
-
+	function registraVenda(){
+		echo "Foi registrada uma venda para o cliente " . $this->getNome();
 	}
-
 }
-
-
 
 ?>
