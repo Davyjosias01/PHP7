@@ -13,8 +13,8 @@ $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES (?, 
 $stmt->bind_param('ss', $login, $pass);
 
 // $type = "ss";
-$login = "lindasso";
-$pass = "92089";
+$login = "Piriscila";
+$pass = "1107";
 
 $stmt->execute();
 

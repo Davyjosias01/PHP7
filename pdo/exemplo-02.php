@@ -13,7 +13,7 @@
 */
 
 
-$conn = new PDO("mysql:dbname=dbphp7; host=127.0.0.1", "root", "");
+$conn = new PDO("sqlsrv:Database=dbphp7;Server=localhost\SQLEXPRESS;ConnectionPooling=0", "sa", "root");
 
 $stmt = $conn->prepare("SELECT * FROM tb_usuarios ORDER BY deslogin");
 
